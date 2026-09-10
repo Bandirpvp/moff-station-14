@@ -56,11 +56,9 @@ thief-backpack-category-communicator-description =
     Includes: Master key for all station channels, a CyberSun pen,
     voice mask implanter, and 20k spesos inside a briefcase.
 
-# Moff Start - Smoke implant replaces smoke grenades
 thief-backpack-category-smuggler-name = Smuggler Kit
 thief-backpack-category-smuggler-description =
     All thieves need somewhere to stash their goods in the dark.
     Don't forget to link your fulton.
-    Includes: Fulton beacon, 10 fultons, 1 smoke implanter,
+    Includes: Fulton beacon, 10 fultons, 3 smoke grenades,
     and an invisible crate to hide valuable loot.
-# Moff End

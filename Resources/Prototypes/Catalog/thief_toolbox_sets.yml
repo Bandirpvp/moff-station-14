@@ -95,9 +95,6 @@
   - InvisibleCrate
   - FultonBeacon
   - Fulton
-  # Moff Start - Implanter is more useful than 3 smoke grenades.
-  # - SmokeGrenade
-  # - SmokeGrenade
-  # - SmokeGrenade
-  - SmokeImplanter
-  # Moff End
+  - SmokeGrenade
+  - SmokeGrenade
+  - SmokeGrenade

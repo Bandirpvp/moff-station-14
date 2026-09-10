@@ -1,10 +1,10 @@
 - type: constructionGraph
-  id: BoxHug
+  id: BoxHugEmpty
   start: start
   graph:
   - node: start
     edges:
-    - to: BoxHug
+    - to: BoxHugEmpty
       steps:
       - tag: Crayon
         icon:
@@ -15,5 +15,5 @@
         amount: 3
         doAfter: 3
 
-  - node: BoxHug
-    entity: BoxHug
+  - node: BoxHugEmpty
+    entity: BoxHugEmpty

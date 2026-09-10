@@ -7,10 +7,10 @@
   objectType: Item
 
 - type: construction
-  id: BoxHug
-  graph: BoxHug
+  id: BoxHugEmpty
+  graph: BoxHugEmpty
   startNode: start
-  targetNode: BoxHug
+  targetNode: BoxHugEmpty
   category: construction-category-storage
   objectType: Item
 

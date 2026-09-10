@@ -27,7 +27,7 @@
   - type: EmpOnTrigger
     keysIn:
     - timer
-    range: 45
+    range: 60
     energyConsumption: 1000000
     disableDuration: 180
   - type: DeleteOnTrigger

@@ -77,34 +77,16 @@
   description: uplink-exploding-syndicate-emp-bomb-desc
   productEntity: SyndicateEmpBomb
   cost:
-    Telecrystal: 6
-  discountCategory: rareDiscounts
-  discountDownTo:
-    Telecrystal: 3
-  categories:
-  - UplinkExplosives
-  restockTime: 600
-  conditions:
-  - !type:StoreWhitelistCondition
-    blacklist:
-      tags:
-      - NukeOpsUplink
-
-- type: listing
-  id: UplinkSyndicateEmpBombNukie
-  name: uplink-exploding-syndicate-emp-bomb-name
-  description: uplink-exploding-syndicate-emp-bomb-desc
-  productEntity: SyndicateEmpBomb
-  cost:
     Telecrystal: 8
   discountCategory: rareDiscounts
   discountDownTo:
     Telecrystal: 4
   categories:
   - UplinkExplosives
+  restockTime: 600
   conditions:
   - !type:StoreWhitelistCondition
-    whitelist:
+    blacklist:
       tags:
       - NukeOpsUplink
 
@@ -236,15 +218,20 @@
   categories:
   - UplinkWearables
 
-# Implants
 - type: listing
-  id: UplinkSmokeImplanter
-  name: uplink-smoke-implant-name
-  description: uplink-smoke-implant-desc
-  icon: { sprite: /Textures/Objects/Weapons/Grenades/smoke.rsi, state: icon }
-  productEntity: SmokeImplanter
+  id: UplinkSyndicateEmpBombNukie
+  name: uplink-exploding-syndicate-emp-bomb-name
+  description: uplink-exploding-syndicate-emp-bomb-desc
+  productEntity: SyndicateEmpBomb
   cost:
-    Telecrystal: 2
+    Telecrystal: 8
+  discountCategory: rareDiscounts
+  discountDownTo:
+    Telecrystal: 4
   categories:
-    - UplinkImplants
-
+  - UplinkExplosives
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink
