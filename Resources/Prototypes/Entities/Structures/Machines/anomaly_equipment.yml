@@ -65,7 +65,7 @@
           Decaying: { state: anomaly-2 }
           Growing: { state: anomaly-3 }
   - type: Explosive
-    explosionType: Default
+    explosionType: Transparent # Funky RMC Explosions
     maxIntensity: 20
     intensitySlope: 30
     totalIntensity: 30
@@ -168,7 +168,6 @@
     access: [[ "Research" ]]
   - type: Emitter
     onState: firing
-    powerUseActive: 100
     boltType: AnomalousParticleDelta
     underpoweredState: underpowered
     selectableTypes:
@@ -184,8 +183,17 @@
     fireBurstSize: 1
     fireBurstDelayMin: 2
     fireBurstDelayMax: 6
+  # Moff Start - remove babygating
+  # - type: NotifyOnNonFunctioning
+  #   locUnlocked: ape-unlocked-broadcast
+  #   radioChannel: Science
+  #   requirePowered: true
+  # Moff End
+  - type: PowerState
+    idlePowerDraw: 5
+    workingPowerDraw: 100
   - type: ApcPowerReceiver
-    powerLoad: 100
+    powerLoad: 5
   - type: GuideHelp
     guides:
     - APE
